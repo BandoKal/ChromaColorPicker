@@ -190,7 +190,7 @@ public class ChromaColorPicker: UIControl, ChromaControlStylable {
 
     // MARK: - Private
     
-    internal let colorWheelView = ColorWheelView()
+    public let colorWheelView = ColorWheelView()
     internal var colorWheelViewWidthConstraint: NSLayoutConstraint!
     
     internal func commonInit() {
