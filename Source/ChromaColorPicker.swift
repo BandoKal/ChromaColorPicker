@@ -113,6 +113,8 @@ public class ChromaColorPicker: UIControl, ChromaControlStylable {
         handles.removeAll()
         
         currentHandle = nil
+        
+        self.setNeedsDisplay()
     }
     
     public func connect(_ slider: ChromaBrightnessSlider) {
